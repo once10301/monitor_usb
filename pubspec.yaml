@@ -1,0 +1,22 @@
+name: monitor_usb
+description: A new Flutter plugin.
+version: 0.0.1
+author: Lewis <once10301@gmail.com>
+homepage: https://github.com/once10301/monitor_usb
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    androidPackage: com.ly.monitor_usb
+    pluginClass: MonitorUsbPlugin
+
